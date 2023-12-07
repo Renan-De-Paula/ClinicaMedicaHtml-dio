@@ -1,0 +1,140 @@
+body {
+    background-color: #1d83ac;
+}
+
+/* estilos de logo*/
+.header {
+    margin: 0;
+    background-color: #4531fa;
+}
+
+.logo {}
+
+/* Estilos para o menu de navegação */
+ul.menu {
+    border: solid 2px white;
+    list-style-type: none;
+    font-size: 20px;
+    width: 25vw;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #4531fa;
+    float: left;
+}
+
+
+ul.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 15px 18px;
+    text-decoration: none;
+
+}
+
+ul.menu li a:hover {
+    background-color: #1d83ac;
+}
+
+/* Estilos para o conteúdo */
+div#content {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin: 25px;
+    height: auto;
+    width: 600px;
+    float: center;
+    
+}
+
+.rodape {
+    border: solid 2px white;
+    width: auto;
+    height: 100px;
+    size: 50px;
+    background-color: #4531fa;
+}
+
+.facebook,
+.instagram,
+.whatsapp {
+    padding-top: 15px;
+    width: 90px;
+    height: 75px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: initial;
+}
+
+a {
+    font-size: 30px;
+    color: white;
+
+}
+
+.horarios {
+    margin: 10px;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border: solid 5px;
+    border-color: #4531fa;
+    border-radius: 50px;
+}
+
+tr {
+    border: dashed 2px #1d83ac;
+    align-content: center;
+}
+
+form {
+    text-align: center;
+    font-size: 35px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+ 
+#mensagem {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
